@@ -1,5 +1,5 @@
 const articleRouter = require("koa-router")()
-const articleController = require("../controller/articleController")
+const articleController = require("../app/controller/articleController")
 
 articleRouter.get("/page", articleController.getArticlePage)
 articleRouter.get("/", articleController.getArticle)

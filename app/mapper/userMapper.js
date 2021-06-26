@@ -1,4 +1,4 @@
-const { query } = require("../database/db")
+const { query } = require("../../database/db")
 
 module.exports = {
     // 获取总数

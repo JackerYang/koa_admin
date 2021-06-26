@@ -1,5 +1,5 @@
 const imagesRouter = require("koa-router")()
-const imagesController = require("../controller/imagesController")
+const imagesController = require("../app/controller/imagesController")
 
 imagesRouter.post("/article/banner/upload", imagesController.uploadArticleBanner)
 imagesRouter.post("/friend/avatar/upload", imagesController.uploadFriendAvatar)

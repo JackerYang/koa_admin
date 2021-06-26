@@ -1,5 +1,5 @@
 const messageRouter = require("koa-router")()
-const messageController = require("../controller/messageController")
+const messageController = require("../app/controller/messageController")
 
 messageRouter.get("/page", messageController.getMessagePage)
 messageRouter.get("/", messageController.getMessage)

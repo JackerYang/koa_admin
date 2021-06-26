@@ -1,5 +1,5 @@
 const categoryRouter = require("koa-router")()
-const categoryController = require("../controller/categoryController")
+const categoryController = require("../app/controller/categoryController")
 
 categoryRouter.get("/list", categoryController.getCategoryList)
 categoryRouter.get("/page", categoryController.getCategoryPage)

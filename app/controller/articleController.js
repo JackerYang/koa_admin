@@ -1,5 +1,5 @@
 const articleService = require("../service/articleService")
-const { paramsHasEmpty } = require("../libs/utils")
+const { paramsHasEmpty } = require("../../libs/utils")
 
 module.exports = {
     getArticlePage: async ctx => {

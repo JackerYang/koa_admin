@@ -1,5 +1,5 @@
 const userService = require("../service/userService")
-const { paramsHasEmpty } = require("../libs/utils")
+const { paramsHasEmpty } = require("../../libs/utils")
 
 module.exports = {
     getUserPage: async ctx => {

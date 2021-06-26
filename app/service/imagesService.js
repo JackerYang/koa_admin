@@ -1,5 +1,5 @@
 const imagesDao = require("../mapper/imagesDao")
-const { uploadImgHandler } = require("../libs/utils")
+const { uploadImgHandler } = require("../../libs/utils")
 
 module.exports = {
     uploadImg: async (img, localIP, type) => {

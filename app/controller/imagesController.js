@@ -1,5 +1,5 @@
 const imagesService = require("../service/imagesService")
-const { paramsHasEmpty } = require("../libs/utils")
+const { paramsHasEmpty } = require("../../libs/utils")
 
 const upload = async (ctx, uploadPath) => {
     const req = ctx.request.files

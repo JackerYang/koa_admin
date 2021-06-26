@@ -1,5 +1,5 @@
 const categoryService = require("../service/categoryService")
-const { paramsHasEmpty } = require("../libs/utils")
+const { paramsHasEmpty } = require("../../libs/utils")
 
 module.exports = {
     getCategoryList: async ctx => {

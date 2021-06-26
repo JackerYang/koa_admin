@@ -1,6 +1,6 @@
 const userMapper = require("../mapper/userMapper")
-const { mdPwd } = require("../libs/md5")
-const { generateToken } = require("../libs/token")
+const { mdPwd } = require("../../libs/md5")
+const { generateToken } = require("../../libs/token")
 
 const nameHasExist = async (name, id) => {
     let data = await userMapper.getUserByName(name, id)

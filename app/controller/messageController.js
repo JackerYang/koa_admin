@@ -1,5 +1,5 @@
 const messageService = require("../service/messageService")
-const { paramsHasEmpty } = require("../libs/utils")
+const { paramsHasEmpty } = require("../../libs/utils")
 
 module.exports = {
     getMessagePage: async ctx => {

@@ -1,5 +1,5 @@
 const userRouter = require("koa-router")()
-const userController = require("../controller/userController")
+const userController = require("../app/controller/userController")
 
 userRouter.get("/page", userController.getUserPage)
 userRouter.get("/", userController.getUser)
